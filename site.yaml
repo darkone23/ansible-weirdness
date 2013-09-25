@@ -1,0 +1,6 @@
+- hosts: local
+  connection: local
+
+  roles:
+    - { role: 'foo', foo: 'leaked bar {{ secret }}' }
+    - { role: 'bar', bar: 'leaked foo {{ foo }}' }

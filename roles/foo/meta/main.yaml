@@ -1,0 +1,4 @@
+dependencies:
+  - role: bar
+    foo: "foo from dependency when bar was '{{ bar }}'"
+    bar: "bar from dependency"
