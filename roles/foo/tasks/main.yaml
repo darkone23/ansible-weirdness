@@ -1,1 +1,0 @@
-- debug: 'msg="Running foo: { foo: {{ foo }}, bar: {{ bar }} }"'

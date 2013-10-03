@@ -1,3 +1,0 @@
-foo: "bar's foo"
-bar: "bar's bar"
-secret: "bar's $E(RET"

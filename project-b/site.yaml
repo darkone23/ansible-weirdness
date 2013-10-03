@@ -1,0 +1,5 @@
+- hosts: local
+  connection: local
+
+  roles:
+    - "{{ lookup('env', 'PWD') }}/../project-a/roles/a"
